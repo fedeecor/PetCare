@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Sofia Lepage">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>PetCare+</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="peluqueria.html">Peluqueria</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Alimentos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="alimento.html#caninos">Caninos</a></li>
+                      <li><a class="dropdown-item" href="alimento.html#felinos">Felinos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="accesorio.html">Accesorios</a>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section>
+            <h1 id="caninos">Alimentos Caninos</h1>
+            <div class="contenedor-cards">
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0383.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Balanced Perro Adulto Raza Grande</h5>
+            <p class="card-text">3kg <br> <b>$14.238</b></p>
+            <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0384.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nutrique Perro Adulto Senior Razas Grandes</h5>
+            <p class="card-text">3kg <br> <b style="text-decoration: line-through;">$37.027</b> <b>$33.324</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+            <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0416.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sieger Perro Reduced Calorie</h5>
+            <p class="card-text">3kg <br> <b>$20.574</b></p>
+            <button class="btn btn-primary" disabled>AGOTADO</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0386.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Royal Canin Medium Adulto</h5>
+            <p class="card-text">7,5kg <br> <b style="text-decoration: line-through;">$81.801</b> <b>$73.621</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+            <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+          </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div class="contenedor-cards">
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0387.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pro Plan Perro Cachorro Raza Mediana</h5>
+              <p class="card-text">1kg <br> <b>$12.736</b></p>
+              <button class="btn btn-primary" disabled>AGOTADO</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0417.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Old Prince Perro Adulto Raza Mediana y Grande</h5>
+              <p class="card-text">20kg <br> <b>$69.228</b></p>
+            <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0389.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Acana Perro Raza Grande</h5>
+              <p class="card-text">11kg <br> <b>$39.670,49</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0418.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sieger Perro Adulto Derma Cordero</h5>
+              <p class="card-text">100g <br> <b>$2.237,40</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        </section>
+        <section>
+            <h1 id="felinos">Alimentos Felinos</h1>
+            <div class="contenedor-cards">
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0390.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pro Plan Gato Adulto Carne De Pollo</h5>
+            <p class="card-text">3kg <br> <b style="text-decoration: line-through;">$51.461</b> <b>$46.314</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+            <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0391.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Whiskas Gato Adulto Carne</h5>
+            <p class="card-text">10kg <br> <b> $45.006</b></p>
+            <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0392.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fawna Gato Cachorro Patagonic Taste</h5>
+            <p class="card-text">3kg <br> <b style="text-decoration: line-through;">$48.867</b> <b>$43.980</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+            <button class="btn btn-primary" disabled>AGOTADO</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0394.JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Royal Canin Gato Indoor Home Life</h5>
+            <p class="card-text">1,5kg <br> <b>$27.556,78</b></p>
+            <button class="btn btn-primary" disabled>AGOTADO</button>
+          </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div class="contenedor-cards">
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0395.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nutrique Gato Adulto Healthy Maintenance</h5>
+              <p class="card-text">7,5kg <br> <b style="text-decoration: line-through;">$108.727</b> <b>$97.854</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+              <button class="btn btn-primary" disabled>AGOTADO</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0396.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Balanced Gato Adulto Programa Equilibrio</h5>
+              <p class="card-text">2kg <br> <b style="text-decoration: line-through;">$21.385</b> <b> $19.246</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0415.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Excellent Gato Cachorro Premium</h5>
+              <p class="card-text">1kg <br> <b>$11.444</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0419.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Agility Gato Urinary 12 Meses</h5>
+              <p class="card-text">1,5kg <br> <b>$12.265</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+        </div>
+        <br>
+        </section>
+    <div id="toast">
+      ¡Producto agregado al carrito!
+    </div>
+    <a href="gracias.html"><button onclick="" id="btnCompra">Terminar compra</button></a>
+    </main>
+        <footer style="background-color: #294c37">
+    <div class="container">
+    <br>
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <h4>PetCare+</h4>
+        <p style="color: aliceblue;">Tu tienda de confianza para el cuidado de tus mascotas</p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h6>Secciones</h6>
+        <ul class="list-unstyled" >
+          <li><a href="index.html" class="text-light text-decoration-none">Inicio</a></li>
+          <li><a href="peluqueria.html" class="text-light text-decoration-none">Peluquería</a></li>
+          <li><a href="alimento.html" class="text-light text-decoration-none">Alimentos</a></li>
+          <li><a href="accesorio.html" class="text-light text-decoration-none">Accesorios</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h6>Contacto</h6>
+        <p style="color: aliceblue;">Email: petcare@gmail.com</p>
+        <p style="color: aliceblue;">Tel: +54 9 11 1234 5678</p>
+        <p style="color: aliceblue;">Dirección: Av. Rafaél Núñez 4670, Córdoba </p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h6>Seguinos</h5>
+        <a href="https://www.facebook.com" class="text-light text-decoration-none">Facebook</a>
+        <a href="https://www.instagram.com" class="text-light text-decoration-none">Instagram</a>
+        <a href="https://www.whatsapp.com" class="text-light text-decoration-none">WhatsApp</a>
+      </div>
+    </div>
+    <hr class="bg-light">
+    <div class="text-center">
+      <small style="color: aliceblue;">&copy; 2025 PetCare+. Todos los derechos reservados. | Diseño por Federica Corin, Sofía Lepage y Lucía Miguel</small>
+    </div>
+    <br>
+  </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+    <script>
+      function agregarAlCarrito() {
+      const toast = document.getElementById("toast");
+      toast.style.display = "block";
+      setTimeout(() => {toast.style.display = "none";}, 2000);
+      btnCompra.style.display = "block";
+      }
+    </script>
+</body>
+
+</html>

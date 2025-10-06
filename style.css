@@ -1,0 +1,79 @@
+body {
+    background-color: #a7cab5;
+    background-image: url(imagenes/logo.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: top right;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #294c37;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+table {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.contenedor-cards {
+    display: flex;
+    gap: 2%; 
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    background-color: #a7cab5;
+    font-size: 40px;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+h4, h6 {
+    color: aliceblue;
+}
+#btnCompra {
+    display:none; 
+    position: fixed;  
+    bottom: 3%;
+    right: 3%;
+    background-color: #a7cab5;
+    border: solid 3px #294c37; 
+    padding: 12px 20px;
+    border-radius: 9px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#toast {
+    display:none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #a7cab5; 
+    padding: 15px 25px; 
+    font-size: 20px;
+    border-radius: 9px; 
+    border: solid 3px #294c37; 
+    color: #294c37;
+}
+
+.volver {
+    background-color: #a7cab5; 
+    padding: 15px 25px; 
+    border-radius: 9px; 
+    border: solid 3px #294c37; 
+    color: #294c37;
+    margin-left: 3%;
+    font-size: 20px;
+}

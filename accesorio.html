@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Sofia Lepage">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>PetCare+</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="peluqueria.html">Peluqueria</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Alimentos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="alimento.html#caninos">Caninos</a></li>
+                      <li><a class="dropdown-item" href="alimento.html#felinos">Felinos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="accesorio.html">Accesorios</a>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <h1>Accesorios</h1>
+            <div class="contenedor-cards">
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0401.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hueso Corbata 3/4</h5>
+            <p class="card-text">Accesorios Perro Juguetes - Hueso Corbata <br><b style="text-decoration: line-through;">$1.634</b> <b>$1.470</b> <b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+            <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0402.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Comedero Plástico Chico Pets Plast</h5>
+            <p class="card-text">Comedero doble rectangular <br><b> $846</b></p>
+            <button class="btn btn-primary" disabled>AGOTADO</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0403.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hueso Porta Bolsas para Correa</h5>
+            <p class="card-text">Pack práctico de 3 rollos<br><b style="text-decoration: line-through;">$1.600</b> <b> $1.440</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+            <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+          </div>
+        </div>
+        <div class="card" style="width: 22%;">
+          <img src="imagenes/IMG_0404.PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cardina / Cepillo Mango De Madera</h5>
+            <p class="card-text">Pelaje libre de nudos y suciedad<b> $3.834</b></p>
+           <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+          </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div class="contenedor-cards">
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0414.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Arnes De Gato Color Fuxia Talle S </h5>
+              <p class="card-text">¡Más vendido!<br><b style="text-decoration: line-through;">$1.634</b> <b>$1.470</b><b style="color: red; font-size: 18px"> ¡10% OFF!</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0413.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Collar para Gato Nuevo Sol</h5>
+              <p class="card-text">Con moño y sonajero <br><b> $1.890</b></p>
+              <button class="btn btn-primary" disabled>AGOTADO</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0411.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rata con Sonido Nuevo Sol</h5>
+              <p class="card-text">Estimula el juego y la diversión<br><b style="text-decoration: line-through;">$5.590</b> <b>$5.031</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0412.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Collar Gatos Elastizado 2177 Nuevo Sol</h5>
+              <p class="card-text">Diseño práctico para uso diario <b>$1.430</b></p>
+              <button class="btn btn-primary" disabled>AGOTADO</button>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="contenedor-cards">
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0405.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cucha Riñon</h5>
+              <p class="card-text"><br>Acolchada, cómoda y abrigada<b> $43.681</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0406.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Casa Para Gato</h5>
+              <p class="card-text"><br>Medidas: 39 x 52 x 33 cm<br><b style="text-decoration: line-through;">$60.000</b> <b>$54.000</b><b style="color: red; font-size: 18px">  ¡10% OFF!</b></p>
+              <button class="btn btn-primary" disabled>AGOTADO</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0407.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Enterito Polar Estampado Mr Pug</h5>
+              <p class="card-text">Talle L <br><b> $1200</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+          <div class="card" style="width: 22%;">
+            <img src="imagenes/IMG_0408.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kit Sanitario Mediano Pets Plast</h5>
+              <p class="card-text">Incluye bandeja y palita<br><b> $5.760</b></p>
+              <button onclick="agregarAlCarrito()" class="btn btn-primary"> COMPRAR</button>
+            </div>
+          </div>
+        </div>      
+        <br>
+      <div id="toast">
+      ¡Producto agregado al carrito!
+    </div>
+    <a href="gracias.html"><button onclick="" id="btnCompra">Terminar compra</button></a>
+    </main>
+        <footer style="background-color: #294c37">
+    <div class="container">
+    <br>
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <h4>PetCare+</h4>
+        <p style="color: aliceblue;">Tu tienda de confianza para el cuidado de tus mascotas</p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h6>Secciones</h6>
+        <ul class="list-unstyled" >
+          <li><a href="index.html" class="text-light text-decoration-none">Inicio</a></li>
+          <li><a href="peluqueria.html" class="text-light text-decoration-none">Peluquería</a></li>
+          <li><a href="alimento.html" class="text-light text-decoration-none">Alimentos</a></li>
+          <li><a href="accesorio.html" class="text-light text-decoration-none">Accesorios</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h6>Contacto</h6>
+        <p style="color: aliceblue;">Email: petcare@gmail.com</p>
+        <p style="color: aliceblue;">Tel: +54 9 11 1234 5678</p>
+        <p style="color: aliceblue;">Dirección: Av. Rafaél Núñez 4670, Córdoba </p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h6>Seguinos</h5>
+        <a href="https://www.facebook.com" class="text-light text-decoration-none">Facebook</a>
+        <a href="https://www.instagram.com" class="text-light text-decoration-none">Instagram</a>
+        <a href="https://www.whatsapp.com" class="text-light text-decoration-none">WhatsApp</a>
+      </div>
+    </div>
+    <hr class="bg-light">
+    <div class="text-center">
+      <small style="color: aliceblue;">&copy; 2025 PetCare+. Todos los derechos reservados. | Diseño por Federica Corin, Sofía Lepage y Lucía Miguel</small>
+    </div>
+    <br>
+  </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+        <script>
+      function agregarAlCarrito() {
+      const toast = document.getElementById("toast");
+      toast.style.display = "block";
+      setTimeout(() => {toast.style.display = "none";}, 2000);
+      btnCompra.style.display = "block";
+      }
+    </script>
+</body>
+
+</html>
